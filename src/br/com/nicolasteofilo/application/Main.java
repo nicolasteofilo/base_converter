@@ -14,9 +14,8 @@ public class Main {
 			int inputBase = readBase(scan, "Base de entrada (2 a 36): ");
 			int outputBase = readBase(scan, "Base de saída(2 a 36): ");
 			Number number = readNumber(scan, inputBase);
-			
-            String convertedNumber = BaseConverterManual.convert(number, inputBase, outputBase);
-            System.out.printf("Resultado: %s\n\r", convertedNumber);
+			String convertedNumber = BaseConverterManual.convert(number, inputBase, outputBase);
+			System.out.printf("Resultado: %s\n\r", convertedNumber);
 		}
 	}
 		
