@@ -20,6 +20,12 @@ Este trabalho foi desenvolvido como atividade acadêmica da **FATEC Ribeirão Pr
 - Java 17
 - IDE compatível com Java (Eclipse, IntelliJ, etc.)
 
+## Limite de Entrada
+
+A aplicação utiliza a classe `BigInteger` da biblioteca padrão do Java, permitindo a manipulação de números inteiros de tamanho arbitrário.
+
+Dessa forma, não existe um limite máximo predefinido para a quantidade de dígitos. O limite prático está relacionado apenas à memória disponível na JVM.
+
 ## Execução
 
 1. Clonar o repositório
